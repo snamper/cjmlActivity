@@ -7,12 +7,11 @@
             <img src="../../assets/images/banner_02.png">
             <img src="../../assets/images/banner_03.png">
             <img src="../../assets/images/banner_04.png">
-            <img src="../../assets/images/banner_05.png">
         </div>
 
 
         <div class="text">
-            <p class="title1"></p>
+            <img src="../../assets/images/title_1.png">
             <div class="textBG">
                 <ul>
                     <li>
@@ -36,7 +35,7 @@
             <div class="textFool"></div>
         </div>
         <div class="text">
-            <p class="title2"></p>
+            <img src="../../assets/images/title_2.png">
             <div class="textBG">
                 <ul>
                     <li>
@@ -85,8 +84,8 @@
                 <li class="fromButton" v-show="!disabled">
                     <a @click="submit"></a>
                 </li>
-                <li class="fromButton " v-show="disabled">
-                    <span></span>
+                <li class="fromButton fromButtonApply" v-show="disabled">
+                    <a ></a>
                 </li>
             </ul>
         </div>

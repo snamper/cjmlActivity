@@ -15,10 +15,9 @@ module.exports = {
     // webpack编译输出的二级文件夹
 		assetsSubDirectory: 'appActivities',//公网环境
     // webpack编译输出的发布路径
-     assetsPublicPath: '//app.yctest.cn/',//本地环境
-      //assetsPublicPath: '//c1.testimg.cn/',//测试环境
+     //assetsPublicPath: '//app.yctest.cn/',//测试环境
     // assetsPublicPath: '//c1.51cjml.com/',//公网环境
-      // assetsPublicPath: '//c1.zhipeicloud.com/',//公网环境
+       assetsPublicPath: '//c1.zhipeicloud.com/',//公网环境
     // 使用SourceMap
     productionSourceMap: true,
     // Gzip off by default as many popular static hosts such as
